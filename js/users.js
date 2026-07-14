@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
     users.forEach(user => {
       const row = document.createElement("tr");
-      row.innerHTML = `<td>${user.user_id}</td><td>${user.add_date}</td>`;
+      row.innerHTML = `<td>${user.user_id}</td><td>${user.last_login_date}</td><td>${user.add_date}</td>`;
       tableBody.appendChild(row);
     });
   }
